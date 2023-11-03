@@ -139,5 +139,75 @@ while (i < numericArray.length) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+let newArr3 = [];
 
-// fare array nuovo - ciclo for - switch con case e push
+for (let i = 0; i < charactersArray.length; i++) {
+  let singlelett = charactersArray[i];
+  switch (charactersArray[i]) {
+    case "a":
+      newArr3.push(1);
+      break;
+    case "b":
+      newArr3.push(2);
+      break;
+    case "c":
+      newArr3.push(3);
+      break;
+    case "d":
+      newArr3.push(4);
+      break;
+    case "e":
+      newArr3.push(5);
+      break;
+    case "f":
+      newArr3.push(6);
+      break;
+    case "g":
+      newArr3.push(7);
+      break;
+    case "h":
+      newArr3.push(8);
+      break;
+    case "i":
+      newArr3.push(9);
+      break;
+    case "l":
+      newArr3.push(10);
+      break;
+    case "m":
+      newArr3.push(11);
+      break;
+    case "n":
+      newArr3.push(12);
+      break;
+    case "o":
+      newArr3.push(13);
+      break;
+    case "p":
+      newArr3.push(14);
+      break;
+    case "q":
+      newArr3.push(15);
+      break;
+    case "r":
+      newArr3.push(16);
+      break;
+    case "s":
+      newArr3.push(17);
+      break;
+    case "t":
+      newArr3.push(18);
+      break;
+    case "u":
+      newArr3.push(19);
+      break;
+    case "v":
+      newArr3.push(20);
+      break;
+    case "z":
+      newArr3.push(21);
+      break;
+  }
+}
+
+console.log(newArr3);
