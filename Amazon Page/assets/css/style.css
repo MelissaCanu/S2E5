@@ -7,6 +7,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   color: white;
+  font-size: 1.3em;
+}
+
+#aqua-green {
+  color: #0b5668;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 10px 10px 0 10px;
 }
 
 nav {
@@ -22,14 +30,19 @@ a,
 li:hover {
   cursor: pointer;
   color: white;
+  text-decoration: none;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.8em;
+}
+
+main {
+  background-color: #e9edee;
 }
 
 main div {
-  margin: 40px 40px;
+  margin: 30px 30px;
 }
 
 /* HEADER */
@@ -44,30 +57,95 @@ header {
 
 .logo img {
   padding: 12px 0px 15px;
-  margin-left: 40px;
-  width: 45vh;
-}
-
-.top-nav {
-  font-size: 1.3em;
+  margin-left: 30px;
+  width: 25vh;
 }
 
 .top-nav ul {
   margin-top: 0;
+  padding-left: 30px;
 }
 .top-nav li {
   display: inline-block;
   margin-right: 20px;
 }
 
-/* DIV-BG */
+/* MAIN */
 
 .div-orange {
   background-color: #f56600;
   text-align: center;
 }
 
-.div-orange a {
-  text-decoration: none;
-  font-size: 1.3em;
+.div-background {
+  background-image: url(../images/bg-image.png);
+  background-size: contain;
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+
+/* INLINE CARDS */
+
+.div-cards {
+  text-align: center;
+  background-color: white;
+  margin: 30px;
+}
+
+.div-cards h3 {
+  color: black;
+  font-weight: 600;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  box-shadow: 8px 8px 15px lightgray;
+  margin: 10px;
+  width: 300px;
+  height: 380px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover {
+  color: lightgray;
+  opacity: 0.5;
+}
+
+.card1 {
+  background-image: url(../images/img_1.jpg);
+}
+
+.card2 {
+  background-image: url(../images/img_2.jpg);
+}
+
+.card3 {
+  background-image: url(../images/img_3.jpg);
+}
+
+.card4 {
+  background-image: url(../images/img_4.jpg);
+}
+
+.heading-cards {
+  text-align: left;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.heading-cards a,
+h3 {
+  display: inline-block;
+  margin: 0;
 }
