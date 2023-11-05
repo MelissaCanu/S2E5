@@ -35,8 +35,6 @@ console.log(invertArr);
 */
 newArr2 = pets.slice(); // onde evitare confusione, in questi es. ho evitato di modificare l'array principale, non so se vada bene
 let moveEl = newArr2.shift();
-console.log(moveEl);
-console.log(newArr2);
 newArr2.push(moveEl);
 console.log(newArr2);
 
@@ -127,7 +125,7 @@ let i = 0;
 
 while (i < numericArray.length) {
   let singleval = numericArray[i];
-  if (singleval < 32) {
+  if (singleval <= 32) {
     console.log(singleval);
   }
   i++;
