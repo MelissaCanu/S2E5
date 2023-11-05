@@ -1,1 +1,73 @@
 /* Your styles here */
+
+/* STILI GENERALI */
+
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: white;
+}
+
+nav {
+  background-color: #364757;
+}
+
+.div-orange,
+li {
+  padding: 10px 0;
+}
+
+a,
+li:hover {
+  cursor: pointer;
+  color: white;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+main div {
+  margin: 40px 40px;
+}
+
+/* HEADER */
+
+header {
+  text-align: left;
+}
+
+.logo {
+  background-color: #222f3f;
+}
+
+.logo img {
+  padding: 12px 0px 15px;
+  margin-left: 40px;
+  width: 45vh;
+}
+
+.top-nav {
+  font-size: 1.3em;
+}
+
+.top-nav ul {
+  margin-top: 0;
+}
+.top-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* DIV-BG */
+
+.div-orange {
+  background-color: #f56600;
+  text-align: center;
+}
+
+.div-orange a {
+  text-decoration: none;
+  font-size: 1.3em;
+}
