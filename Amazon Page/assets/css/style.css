@@ -7,13 +7,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   color: white;
-  font-size: 1.3em;
+  font-size: 1em;
+  background-color: #e9edee;
 }
 
 #aqua-green {
-  color: #0b5668;
+  color: #0c7893;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 10px 10px 0 10px;
 }
 
@@ -37,11 +38,8 @@ h2 {
   font-size: 1.8em;
 }
 
-main {
-  background-color: #e9edee;
-}
-
-main div {
+main div,
+aside {
   margin: 30px 30px;
 }
 
@@ -58,7 +56,7 @@ header {
 .logo img {
   padding: 12px 0px 15px;
   margin-left: 30px;
-  width: 25vh;
+  width: 20vh;
 }
 
 .top-nav ul {
@@ -86,15 +84,28 @@ header {
 
 /* INLINE CARDS */
 
+.heading {
+  padding-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.heading h3 {
+  color: black;
+  font-weight: 600;
+}
+
+.heading a,
+h3 {
+  display: inline-block;
+  margin: 0;
+}
+
 .div-cards {
   text-align: center;
   background-color: white;
   margin: 30px;
-}
-
-.div-cards h3 {
-  color: black;
-  font-weight: 600;
 }
 
 .card1,
@@ -137,15 +148,42 @@ header {
   background-image: url(../images/img_4.jpg);
 }
 
-.heading-cards {
-  text-align: left;
-  padding-top: 5px;
-  margin-bottom: 10px;
-  margin-left: 20px;
+/* ASIDE */
+
+.div-bg-bottom1,
+.div-bg-bottom2 {
+  height: 400px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
 }
 
-.heading-cards a,
-h3 {
-  display: inline-block;
-  margin: 0;
+.div-bg-bottom1 {
+  background-image: url(../images/img_9.png);
+}
+
+.div-bg-bottom2 {
+  background-image: url(../images/img_10.png);
+}
+
+.heading-aside {
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+}
+.bottom-nav {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  padding: 20px 0;
+}
+.bottom-logo img {
+  width: 10em;
+  padding: 40px 0 50px 0;
 }
